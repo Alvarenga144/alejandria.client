@@ -1,0 +1,53 @@
+{
+  "name": "alejandria.client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@speechly/speech-recognition-polyfill": "^1.3.0",
+    "compressorjs": "^1.2.1",
+    "dat.gui": "^0.7.9",
+    "date-fns": "^3.2.0",
+    "framer-motion": "^10.18.0",
+    "jwt-decode": "^4.0.0",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-feather": "^2.0.10",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.12.0",
+    "react-markdown": "^9.0.1",
+    "react-router-dom": "^6.21.0",
+    "react-speech-recognition": "^3.10.0",
+    "recoil": "^0.7.7",
+    "regenerator-runtime": "^0.14.1",
+    "remark-breaks": "^4.0.0",
+    "remark-gfm": "^4.0.0",
+    "rxjs": "^7.8.1",
+    "sonner": "^1.3.1",
+    "tailwind-scrollbar-hide": "^1.1.7",
+    "three": "^0.163.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.3",
+    "vite": "^5.0.8"
+  }
+}

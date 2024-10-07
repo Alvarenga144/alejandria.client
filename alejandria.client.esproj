@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/0.5.128-alpha">
+  <PropertyGroup>
+    <StartupCommand>npm run dev</StartupCommand>
+    <JavaScriptTestRoot>src\</JavaScriptTestRoot>
+    <JavaScriptTestFramework>Jest</JavaScriptTestFramework>
+    <!-- Allows the build (or compile) script located on package.json to run on Build -->
+    <ShouldRunBuildScript>false</ShouldRunBuildScript>
+    <!-- Folder where production build objects will be placed -->
+    <PublishAssetsDirectory>$(MSBuildProjectDirectory)\dist</PublishAssetsDirectory>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="src\Components\LogoutButton\" />
+    <Folder Include="src\Components\LoadingDots\" />
+    <Folder Include="src\Components\CreateMenu\" />
+    <Folder Include="src\Components\SuggestedUser\" />
+    <Folder Include="src\Pages\ProductPage\" />
+    <Folder Include="src\Pages\UpdateProfile\" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptConfiguration Remove="src\Pages\Home\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="src\Pages\Home\**" />
+  </ItemGroup>
+</Project>
